@@ -1,0 +1,276 @@
+
+
+### 首頁 (index.html)
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Yan 的個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        header h1 {
+            margin: 1rem 0;
+            font-size: 2rem;
+            color: #2c3e50;
+        }
+        header p {
+            font-size: 1rem;
+            color: #7f8c8d;
+        }
+        nav {
+            margin-top: 2rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #2980b9;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="111.jpg" alt="Eric Yan 的照片">
+        <h1>Eric Yan</h1>
+        <p>歡迎來到我的個人網站！</p>
+    </header>
+    <nav>
+        <a href="about.html">關於我</a>
+        <a href="research.html">研究成果</a>
+        <a href="teaching.html">教學方向</a>
+        <a href="links.html">學術連結</a>
+    </nav>
+</body>
+</html>
+```
+
+### 關於我 (about.html)
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我 - Eric Yan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1rem;
+            color: #7f8c8d;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>關於我</h2>
+    <section>
+        <h3>個人基本資料</h3>
+        <p>Email: ericyan@o365.fcu.edu.tw</p>
+        <p>電話: 886-9-06678091</p>
+    </section>
+    <section>
+        <h3>學歷</h3>
+        <p>PhD of Economics, Monash University (2012)</p>
+    </section>
+    <section>
+        <h3>經歷</h3>
+        <ul>
+            <li>Assistant Professor, Department of Economics, Feng Chia University (Feb 2023-)</li>
+            <li>Postdoctoral Assistant Research Fellow, Department of Political Science, National Cheng Kung University, Taiwan (April 2021-Jan 2023)</li>
+            <li>Assistant Professor, Hubei University of Economics, China (Feb 2016-Feb 2020)</li>
+            <li>Postdoctoral Fellow, Institute of Economics, Academia Sinica, Taiwan (Aug 2013-December 2015)</li>
+            <li>Postdoctoral Fellow, Department of Economics, National Chengchi University, Taiwan (July 2012-July 2013)</li>
+            <li>Tutor, Monash University, Australia (2010-2011)</li>
+        </ul>
+    </section>
+</body>
+</html>
+```
+
+### 研究成果 (research.html)
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究成果 - Eric Yan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 1rem 0;
+            color: #7f8c8d;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h2>研究成果</h2>
+    <ul>
+        <li><a href="https://worldscientific.com/doi/10.1142/S0217590824420013">Health System Performance Disaster Response and Political Identities during the COVID-19 Pandemic</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/abs/pii/B9780443137761000064?via%3Dihub">Energy convergence: What do we know to date?</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/abs/pii/B9780443137761000064?via%3Dihub">Environmental accounting for climate change: Current status for India</a></li>
+        <li><a href="https://doi.org/10.1142/9781800614482_0002">Green Finance and Sustainable Development in India</a></li>
+        <li><a href="https://doi.org/10.1016/j.annals.2022.103424">COVID-19 vaccines rules deaths and tourism recovery</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S0140988321004254">Dynamics of energy poverty: evidence from nonparametric estimates across the ASEAN+6 region</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0264999319317511">Do we need Ramsey taxation? Our existing taxes are largely corrective</a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S0165176520302044">Do state-owned enterprises influence technological development?</a></li>
+        <li><a href="https://icsum.org.my/wp-content/uploads/2020/02/4-Chuang-Yan.pdf">Behind the invisible wall: What determine wage differentials between urban and migrant workers in China</a></li>
+        <li><a href="https://ideas.repec.org/a/taf/applec/v45y2013i33p4641-4650.html">The first Great Divergence and the evolution of cross-country income inequality during the last millennium</a></li>
+    </ul>
+</body>
+</html>
+```
+
+### 教學方向 (teaching.html)
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教學方向 - Eric Yan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1rem;
+            color: #7f8c8d;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>教學方向</h2>
+    <section>
+        <h3>教授課程</h3>
+        <ul>
+            <li>Principles of Economics</li>
+            <li>Energy Economics</li>
+            <li>Economics of Law</li>
+            <li>Public Economics</li>
+            <li>Economic Development</li>
+            <li>Introduction to Economics for Sophomores (English as a Medium of Instruction)</li>
+        </ul>
+    </section>
+</body>
+</html>
+```
+
+### 學術連結 (links.html)
+```html
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學術連結 - Eric Yan</title>
+    <style
+
+>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 1rem 0;
+            color: #7f8c8d;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h2>學術連結</h2>
+    <ul>
+        <li><a href="https://personal.ntu.edu.sg/qfeng/">Qu Feng 個人網站</a></li>
+        <li><a href="https://orcid.org/0000-0002-4483-2189">Mita Bhattacharya ORCID</a></li>
+        <li><a href="https://orcid.org/0000-0003-2428-2762">Ratbek Dzhumashev ORCID</a></li>
+    </ul>
+</body>
+</html>
+```
+
